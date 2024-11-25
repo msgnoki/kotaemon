@@ -20,5 +20,6 @@ demo.queue().launch(
     allowed_paths=[
         "libs/ktem/ktem/assets",
         GRADIO_TEMP_DIR,
-    ],
+      ],
+    share=True,  # Enables public sharing link
 )
